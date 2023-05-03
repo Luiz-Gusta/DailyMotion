@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Registro e Login</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/loginestilo.css">
+
+</head>
+<body>
+
+<div>
+    <!-- Imagem e texto -->
+    <nav class="navbar navbar-dark bg-dark logo">
+        
+    <div class="float-center">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+
+        <div class="float-right">
+            <a class="func" href="">Registrar</a>
+            &nbsp;
+            <a class="func dropleft">
+                <button class="dropbtn cor" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 18px">Login</button>
+                <div class="dropdown-menu p-1 text-center">
+                    <div class="input-group mb-1 login">
+                        <input type="text" class="form-control" placeholder="Nome de Usuário" aria-label="Nome de Usuário" aria-describedby="button-addon2">
+                    </div>
+                    <div class="form-group mb-1 login">
+                        <input type="password" class="form-control" placeholder="Senha">
+                    </div>
+                    <button type="button" class="btn btn-dark">
+                        Login
+                    </button>
+                </div>
+            </a>
+        </div>
+    </nav>
+</div>
+
+    <div class="container">
+
+        <div class="float-center rounded bg-light border-white">
+
+            <div class="modal box" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Registro</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Nome de Usuário" aria-label="Nome de Usuário" aria-describedby="button-addon2">
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="button-addon2">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Senha">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Confirmar Senha">
+                            </div>
+
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Concordo com os <a href="">Termos de Uso</a> do AngryMotion.</label>
+                            </div>
+
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Quero receber notificações de promoções do AngryMotion por E-mail.</label>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Registrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br/><br/>
+
+    <div class="footer">
+        <nav class="navbar bg-dark logo">
+            <div class="row">
+                <div class="espacofooter">
+                    <a class="lista"  href=""><b>Sobre a Empresa</b></a>
+                    <br/><br/>
+                    <a class="lista" href=""><b>Contatos</b></a>
+                </div>
+
+                <div class="espacofooter">
+                    <a class="lista" href=""><b>Suporte</b></a>
+                    <br/><br/>
+                    <a class="lista" href=""><b>FAQ</b></a>
+                    <br/><br/>
+                    <a class="lista" href=""><b>Parcerias</b></a>
+                </div>
+
+                <div class="espacofooter">
+                    <br/><br/>
+                    <a class="logo" href="index.html">
+                        <img src="img/angry.png">
+                        AngryMotion.com
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    </div>
+    <script src="js/meuscript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
